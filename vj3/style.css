@@ -1,138 +1,135 @@
 body {
-    font-size: 12px;
-    }
-
-p, h1, form, button {
-    border: 0;
-    margin: 0;
-    padding: 0;
+	font-size: 12px;
 }
 
+p,
+h1,
+form,
+button {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
 
 .spacer {
-    clear: both;
-    height: 1px;
+	clear: both;
+	height: 1px;
 }
 
 .myform {
-    margin: 20rem auto;
-    width: 400px;
-    padding: 14px;
+	margin: 10rem auto 0 auto;
+	width: 400px;
+	padding: 14px;
 }
 
 #basic {
-    border: solid 2px #DEDEDE;
+	border: solid 2px #dedede;
 }
 
 #basic h1 {
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 8px;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 8px;
 }
 
 #basic p {
-    font-size: 11px;
-    color: #666666;
-    margin-bottom: 20px;
-    border-bottom: solid 1px #dedede;
-    padding-bottom: 10px;
+	font-size: 11px;
+	color: #666666;
+	margin-bottom: 20px;
+	border-bottom: solid 1px #dedede;
+	padding-bottom: 10px;
 }
 
 #basic label {
-    display: block;
-    font-weight: bold;
-    text-align: right;
-    width: 140px;
-    float: left;
+	display: block;
+	font-weight: bold;
+	text-align: right;
+	width: 140px;
+	float: left;
 }
 
 #basic .small {
-    color: #666666;
-    display: block;
-    font-size: 11px;
-    font-weight: normal;
-    text-align: right;
-    width: 140px;
+	color: #666666;
+	display: block;
+	font-size: 11px;
+	font-weight: normal;
+	text-align: right;
+	width: 140px;
 }
 
 #basic input {
-    float: left;
-    width: 200px;
-    margin: 2px 0 30px 10px;
+	float: left;
+	width: 200px;
+	margin: 2px 0 30px 10px;
 }
 
 #basic button {
-    clear: both;
-    margin-left: 150px;
-    background: #888888;
-    color: #FFFFFF;
-    border: solid 1px #666666;
-    font-size: 11px;
-    font-weight: bold;
-    padding: 4px 6px;
+	clear: both;
+	margin-left: 150px;
+	background: #888888;
+	color: #ffffff;
+	border: solid 1px #666666;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 4px 6px;
 }
 
-
 #muip {
-    border: solid 2px #b7ddf2;
-    background: pink;
-
+	border: solid 2px #b7ddf2;
+	background: pink;
 }
 
 #muip h1 {
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 8px;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 8px;
 }
 
 #muip p {
-    font-size: 11px;
-    color: #666666;
-    margin-bottom: 20px;
-    border-bottom: solid 1px #b7ddf2;
-    padding-bottom: 10px;
+	font-size: 11px;
+	color: #666666;
+	margin-bottom: 20px;
+	border-bottom: solid 1px #b7ddf2;
+	padding-bottom: 10px;
 }
 
 #muip label {
-    display: block;
-    font-weight: bold;
-    text-align: right;
-    width: 140px;
-    float: left;
+	display: block;
+	font-weight: bold;
+	text-align: right;
+	width: 140px;
+	float: left;
 }
 
 #muip .small {
-    color: #666666;
-    display: block;
-    font-size: 11px;
-    font-weight: normal;
-    text-align: right;
-    width: 140px;
+	color: #666666;
+	display: block;
+	font-size: 11px;
+	font-weight: normal;
+	text-align: right;
+	width: 140px;
 }
 
 #muip input {
-    border-radius: 10px;
-    float: left;
-    font-size: 12px;
-    padding: 4px 2px;
-    border: solid 1px #aacfe4;
-    width: 200px;
-    margin: 2px 0 20px 10px;
+	border-radius: 10px;
+	float: left;
+	font-size: 12px;
+	padding: 4px 2px;
+	border: solid 1px #aacfe4;
+	width: 200px;
+	margin: 2px 0 20px 10px;
 }
 
 #muip button {
-    clear: both;
-    margin-left: 160px;
-    width: 125px;
-    height: 31px;
-    background: #444;
-    text-align: center;
-    line-height: 31px;
-    color: #FFFFFF;
-    font-size: 11px;
-    font-weight: bold;
-}
-
-button {
+	clear: both;
+	margin-left: 160px;
+	width: 125px;
+	height: 31px;
+	background: #444;
+	text-align: center;
+	line-height: 31px;
+	color: #ffffff;
+	font-size: 11px;
+	font-weight: bold;
     margin-top: 15px;
 }

@@ -1,77 +1,88 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset=UTF-8"/>
-    <link rel="stylesheet" href="./style.css">
-    <title>MUIP VJ3</title>
-</head>
+	<head>
+		<meta charset=UTF-8"/>
+		<link rel="stylesheet" href="./style.css" />
+		<title>MUIP VJ3</title>
+	</head>
 
-<body>
+	<body>
+		<div id="muip" class="myform">
+			<table>
+				<form>
+					<label
+						>Name
+						<span class="small">Add your name</span>
+					</label>
+					<input type="text" name="name" />
+					<label
+						>Email
+						<span class="small">Enter your Email</span>
+					</label>
+					<input type="email" name="email" />
+					<label
+						>Phone
+						<span class="small">Add a Phone Number</span>
+					</label>
+					<input type="number" name="phone" />
 
-<div id="muip" class="myform">
+					<br />
+					<br />
 
-    <form>
+					<label
+						>Website
+						<span class="small">Your Website</span>
+					</label>
+					<input type="url" name="website" />
 
-        <label>Name
-            <span class="small">Add your name</span>
-        </label>
-        <input type="text" name="name">
-        <label>Email
-            <span class="small">Enter your Email</span>
-        </label>
-        <input type="text" name="email">
-        <label>Phone
-            <span class="small">Add a Phone Number</span>
-        </label>
-        <input type="text" name="phone">
+					<label
+						>Year
+						<span class="small">Year of College </span>
+					</label>
 
-        <br/>
-        <br/>
+					<select name="year" size="1">
+						<option value="first">1st</option>
+						<option value="second">2nd</option>
+						<option value="third">3rd</option>
+					</select>
+					<br />
+					<br />
+					<br />
+					<label
+						>Reason
+						<span class="small">Reason</span>
+					</label>
+					<select name="type" size="1">
+						<option value="complaint" selected>Complaint</option>
+						<option value="something">Something</option>
+					</select>
+					<br />
+					<br />
+					<br />
 
-        <label>Website
-            <span class="small">Your Website</span>
-        </label>
-        <input type="text" name="website">
+					<label
+						>Message
+						<span class="small">Type Your Message</span>
+					</label>
+					<textarea name="message" rows="6" cols="25"></textarea><br />
 
-        <label>Year
-            <span class="small">Year of College  </span>
-        </label>
+					<label
+						>Date
+						<span class="small">Pick date</span>
+					</label>
+					<input type="date" name="date" />
+					<br />
+					<br />
 
-        <select name="year" size="1">
-            <option value="first">1st</option>
-            <option value="second">2nd</option>
-            <option value="third">3rd</option>
-        </select>
-        <br/>
-        <br/>
-        <br/>
-        <label>Reason
-            <span class="small">Reason</span>
-        </label>
-        <select name="type" size="1">
-            <option value="complaint" selected>Complaint</option>
-            <option value="something">Something</option>
-        </select>
-        <br/>
-        <br/>
-        <br/>
+                    <input type="checkbox" name="checkbox" />
+                    <label for="checkbox"> Do you accept ToS?</label>
 
+					<br />
 
-        <label>Message
-            <span class="small">Type Your Message</span>
-        </label>
-        <textarea name="message" rows="6" cols="25"></textarea><br/>
-        <br>
-        <input type="checkbox"> Do you accept ToS?
-
-        <br>
-
-        <button>Submit</button>
-        <div class="spacer"></div>
-
-    </form>
-
-</div>
-
-</body>
+					<button>Submit</button>
+					<div class="spacer"></div>
+				</form>
+			</table>
+		</div>
+	</body>
 </html>
