@@ -11,125 +11,44 @@ button {
 	padding: 0;
 }
 
-.spacer {
-	clear: both;
-	height: 1px;
-}
-
-.myform {
-	margin: 10rem auto 0 auto;
-	width: 400px;
-	padding: 14px;
-}
-
-#basic {
-	border: solid 2px #dedede;
-}
-
-#basic h1 {
-	font-size: 14px;
+span {
+	text-transform: uppercase;
 	font-weight: bold;
-	margin-bottom: 8px;
+	font-size: 1rem;
 }
 
-#basic p {
-	font-size: 11px;
-	color: #666666;
-	margin-bottom: 20px;
-	border-bottom: solid 1px #dedede;
-	padding-bottom: 10px;
+table {
+	margin: 0 auto;
+	background-color: pink;
 }
 
-#basic label {
-	display: block;
-	font-weight: bold;
-	text-align: right;
-	width: 140px;
-	float: left;
+table tr td {
+	padding: 1a0px;
 }
 
-#basic .small {
-	color: #666666;
-	display: block;
-	font-size: 11px;
-	font-weight: normal;
-	text-align: right;
-	width: 140px;
-}
-
-#basic input {
-	float: left;
-	width: 200px;
-	margin: 2px 0 30px 10px;
-}
-
-#basic button {
-	clear: both;
-	margin-left: 150px;
-	background: #888888;
-	color: #ffffff;
-	border: solid 1px #666666;
-	font-size: 11px;
-	font-weight: bold;
-	padding: 4px 6px;
-}
-
-#muip {
-	border: solid 2px #b7ddf2;
-	background: pink;
-}
-
-#muip h1 {
-	font-size: 14px;
-	font-weight: bold;
-	margin-bottom: 8px;
-}
-
-#muip p {
-	font-size: 11px;
-	color: #666666;
-	margin-bottom: 20px;
-	border-bottom: solid 1px #b7ddf2;
-	padding-bottom: 10px;
-}
-
-#muip label {
-	display: block;
-	font-weight: bold;
-	text-align: right;
-	width: 140px;
-	float: left;
-}
-
-#muip .small {
-	color: #666666;
-	display: block;
-	font-size: 11px;
-	font-weight: normal;
-	text-align: right;
-	width: 140px;
-}
-
-#muip input {
-	border-radius: 10px;
-	float: left;
-	font-size: 12px;
-	padding: 4px 2px;
-	border: solid 1px #aacfe4;
-	width: 200px;
-	margin: 2px 0 20px 10px;
-}
-
-#muip button {
-	clear: both;
-	margin-left: 160px;
-	width: 125px;
-	height: 31px;
-	background: #444;
+.heading {
 	text-align: center;
-	line-height: 31px;
-	color: #ffffff;
-	font-size: 11px;
+	text-transform: uppercase;
 	font-weight: bold;
-    margin-top: 15px;
+	font-size: 1.1rem;
+}
+
+input {
+	border-radius: 5px;
+}
+
+.check {
+	text-align: center;
+}
+
+.btn-td {
+	padding: 0 50%;
+}
+
+.btn {
+	border: 1px black solid;
+	padding: 5px;
+	border-radius: 5px;
+	color: green;
+	background-color: yellow;
 }
