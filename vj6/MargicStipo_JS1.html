@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS 1 Vjezba</title>
+</head>
+<body>
+
+</body>
+<script>
+    let x = 11;
+    x < 10 && x > 0 ? console.log("Its morning") : x < 18 && x > 10 ? console.log("It's afternoon") : x < 24 && x > 18 ? console.log("it's night!") : "";
+
+    let day = "Monday";
+
+    switch (day) {
+        case "Monday":
+            console.log("It's Monday");
+            break;
+        case "Tuesday":
+            console.log("It's tuesday");
+            break;
+        case "Wednesday":
+            console.log("It's Wednesday");
+            break;
+        case "Thursday":
+            console.log("It's Thursday");
+            break;
+        case "Friday":
+            console.log("It's Friday");
+            break;
+        default:
+            console.log("It's weekend");
+            break;
+    }
+
+    let numb = 21;
+    let sum1 = 0;
+    while (numb < 120) {
+        numb % 3 == 0 && numb % 10 == 0 ? console.log(numb) : sum1 += numb;
+
+        numb++;
+    }
+    console.log(sum1);
+
+    let sum2 = 0;
+    for (let i = 21; i < 120; ++i){
+        i % 3 == 0 && i % 10 == 0 ? console.log(i) : sum2 += i;
+    }
+    console.log(sum2);
+</script>
+</html>
