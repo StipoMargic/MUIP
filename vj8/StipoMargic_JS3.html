@@ -9,6 +9,30 @@
 
 </body>
 <script>
+    let number;
+    let array = [0, 0];
+
+    const oddOrEven = number => {
+        return number % 2;
+    }
+
+    const countNumbers = (number, array) => {
+        if (oddOrEven(number)) {
+            array[0]++;
+        } else {
+            array[1]++;
+        }
+
+        if (number === 0){
+            array[1]--;
+        }
+        console.log(`There is ${array[1]} even numbers, and ${array[0]} odd numbers.`)
+    }
+
+    do {
+        number = prompt("Enter number: [0 to stop] ");
+        countNumbers(+number, array);
+    } while (+number !== 0)
 
     const grade = (className) => {
         return (numberOfPoints) => {
