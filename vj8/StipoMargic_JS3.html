@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS VJ 3</title>
+</head>
+<body>
+
+
+</body>
+<script>
+
+    const grade = (className) => {
+        return (numberOfPoints) => {
+            return maxPoints => {
+                console.log(`You scored ${(numberOfPoints / maxPoints) * 100}% in ${className}`);
+            }
+        }
+    }
+
+    grade("MUIP")(10)(10);
+</script>
+</html>
