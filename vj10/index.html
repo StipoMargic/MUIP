@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="./style.css"/>
+    <title>MUIP VJ3</title>
+</head>
+
+<body>
+<table>
+    <form>
+        <tr class="heading">
+            <td>Key</td>
+            <td>value</td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <span class="small">Add your name</span>
+                </label>
+            </td>
+            <td>
+                <input id="name" type="text" name="name"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <span class="small">Enter your Email</span>
+                </label>
+            </td>
+            <td>
+                <input id="email" type="email" name="email"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <span class="small">Add a Phone Number</span>
+                </label>
+            </td>
+            <td>
+                <input id="phone" type="number" name="phone"/>
+            </td>
+        </tr>
+        <br/>
+        <br/>
+        <tr>
+            <td>
+                <label>
+                    <span class="small">Your Website</span>
+                </label>
+            </td>
+            <td>
+                <input id="web" type="url" name="website"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>
+                    <span class="small">Year of College </span>
+                </label>
+            </td>
+            <td>
+                <select name="year" size="1">
+                    <option value="first">1st</option>
+                    <option value="second">2nd</option>
+                    <option value="third">3rd</option>
+                </select>
+            </td>
+        </tr>
+        <br/>
+        <br/>
+        <br/>
+        <tr>
+            <td>
+                <label>
+                    <span class="small">Reason</span>
+                </label>
+            </td>
+            <td>
+                <select name="type" size="1">
+                    <option value="complaint" selected>Complaint</option>
+                    <option value="something">Something</option>
+                </select>
+            </td>
+        </tr>
+        <br/>
+        <br/>
+        <br/>
+        <tr>
+            <td>
+                <label>
+                    <span class="small">Type Your Message</span>
+                </label>
+            </td>
+            <td><textarea id="message" name="message" rows="6" cols="25"></textarea><br/></td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <span class="small">Pick date</span>
+                </label>
+            </td>
+            <td>
+                <input id="date" type="date" name="date"/>
+            </td>
+        </tr>
+        <br/>
+        <br/>
+        <tr class="check">
+            <td>
+                <input id="checkbox" type="checkbox" name="checkbox"/>
+                <label for="checkbox"> Do you accept ToS?</label>
+            </td>
+        </tr>
+        <br/>
+        <tr>
+            <td class="btn-td">
+                <button id="btn" class="btn">Submit</button>
+            </td>
+        </tr>
+    </form>
+</table>
+</body>
+<script src="script.js"></script>
+</html>

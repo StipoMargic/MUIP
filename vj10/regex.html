@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vj JS5</title>
+</head>
+<body>
+
+</body>
+<script>
+    let user = prompt("Enter hex color: ");
+    const colorRegex = /^#([0-9a-f]{6}|[0-9a-f]{3})$/i;
+    if (!user.match(colorRegex)){
+        console.log("Wrong hex code!")
+    }
+    const mail = "stipo_margic@liberato-udruga.io";
+    const mailRegex = /^[a-z_]+@[a-z-_]+?\.[a-zA-Z]{2,3}$/;
+    if (mail.match(mailRegex)){
+        console.log("Regex is ok");
+    }
+</script>
+</html>

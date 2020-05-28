@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VJ JS 4</title>
+</head>
+<body>
+
+</body>
+<script>
+    // Arrays
+    let i = 0;
+    let array = [];
+    while (i < 30) {
+        let number = Math.floor(400 * Math.random() + 100);
+        array.push(number);
+
+        i++;
+    }
+    let newArr = array.filter((number) => number < 400 && number > 300, []);
+    newArr.sort();
+    console.log(newArr);
+    newArr.pop();
+    newArr.shift();
+    console.log(newArr);
+    const addition = newArr.reduce((prev, curr) => prev + curr, 0);
+    console.log(addition)
+
+    // Stings
+    let str = "";
+    str += "cascading style sheets";
+
+    const shorty = str.split(' ').map(word => word.charAt(0).toUpperCase()).join('');
+
+    str = `${str}(${shorty})`;
+    let x = 0;
+    console.log(str);
+    for (let j = 0; j < str.length; ++j) {
+        if (str[j].toUpperCase() === 'S') x++;
+    }
+    console.log(x);
+</script>
+</html>
